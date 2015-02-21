@@ -13,6 +13,6 @@ An analysis of accelerometer data generated from an experiment with Samsung Gala
 
   1. Read through the [CodeBook](CodeBook.md) and the [run_analysis.R](run_analysis.R) script to get a general understanding of this project, the steps taken in the analysis, and the output file.
   2. Make sure the [experiment data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is downloaded and extracted in the same folder than the script.
-  3. Load the `run_analysis.R` script into R with `source("run_analysis.R").
+  3. Load the `run_analysis.R` script into R with `source("run_analysis.R")` command.
   4. Run the script indicating the directory with the experiment data downloaded. E.g.: `RunAnalysis("UCI HAR Dataset")`
 
