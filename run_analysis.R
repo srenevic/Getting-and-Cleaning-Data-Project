@@ -54,7 +54,7 @@ RunAnalysis <- function(dir) {
 	print("Melting.")
 	meltedData <- melt(data, id = c("Subject", "Activity","DataType"))
 	print("Dcasting.")
-	tidyData <- dcast(meltedData, Subject + Activity ~ variable, mean)
+	tidyData <- dcast(meltedData, Subject + Activity + DataType ~ variable, mean)
 
 	# Save the tidy data.
 	print(paste("Saving clean data to:", tidyDataFile))
