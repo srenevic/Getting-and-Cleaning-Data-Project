@@ -60,6 +60,7 @@ RunAnalysis <- function(dir) {
 	print(paste("Saving clean data to:", tidyDataFile))
 	write.table(tidyData, tidyDataFile, row.names = FALSE, quote = FALSE)
 
+	return(tidyData)
 
 }
 
